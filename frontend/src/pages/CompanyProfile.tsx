@@ -165,10 +165,10 @@ const CompanyProfile: React.FC = () => {
                   };
                 });
               } else if (rawData.event === 'result') {
-                setResearchResult((prev: any) => ({
+                setResearchResult({
                   ...rawData.data,
                   thread_id: rawData.data?.thread_id || activeThreadId
-                }));
+                });
               } else if (rawData.event === 'error') {
                 setResearchError(rawData.detail || 'Streaming resume failed.');
               }

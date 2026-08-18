@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Activity, Globe, Zap, ArrowUpRight, ArrowDownRight, ShieldCheck } from 'lucide-react';
+import { Activity, Globe, Zap, ShieldCheck } from 'lucide-react';
 import { getCompanyOverview } from '../services/api';
 
 interface IndexItem {
