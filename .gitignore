@@ -1,0 +1,32 @@
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Node / Frontend
+node_modules/
+dist/
+.vite/
+
+# Secrets & Local Config
+.env
+.env.local
+!.env.example
+
+# Database & Storage
+*.db
+*.sqlite3
+*.db-shm
+*.db-wal
+
+# Executables & Logs
+*.exe
+*.log
